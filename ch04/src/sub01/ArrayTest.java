@@ -1,4 +1,4 @@
-package ch04;
+package sub01;
 	/*
 	 * 날짜: 2024/7/2
 	 * 이름: 최영진

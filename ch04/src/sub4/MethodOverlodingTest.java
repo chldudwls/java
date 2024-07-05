@@ -6,29 +6,34 @@ package sub4;
  */
 public class MethodOverlodingTest {
 	public static void main(String[] args) {
-	//오버로드 메서드 정의
 		
-		int r1 = odd(3);
-		int r2 = odd(1,2);
-		double r3 = odd(1.0, 2.1);
-		String r4 = odd("Hello", "World");
+		int r1	  = add(3);
+		int r2	  = add(1,2);
+		double r3 = add(1.0, 2.1);
+		String r4 = add("Hello", "World");
 		
-		public static int add(int a) {
-			return a + a;
-		}
-		public static int add(int a, int b) {
-			return a + b;
-		}
-		public static int add(double a, double b) {
-			return a + b;
-		}
-			
-		public static int add(String a, String b) {
-			return a + b;
-		}
+		System.out.println("r1 : " + r1);
+		System.out.println("r2 : " + r2);
+		System.out.println("r3 : " + r3);
+		System.out.println("r4 : " + r4);
 		
 	}
+	//오버로드 메서드 정의
+	public static int add(int a) {
+		return a + a;
+	}
+	public static int add(int a, int b) {
+		return a + b;
+	}
+	public static double add(double a, double b) {
+		return a + b;
+	}
+	public static String add(String a, String b) {
+		return a + b;
+	}
+	
 }
+
 
 		
 		
