@@ -2,23 +2,16 @@ package sec;
 
 public class CalculatorExample {
 	public static void main(String[] args) {
-		Calculator myCalc = new Calculator();
+		
+		Calculator myCal = new Calculator();
+		
+		double result1 = myCal.areaRectangle(10);
+		
+		double result2 = myCal.areaRectangle(10, 20);
 		
 		
-		myCalc.powerOn();
-		
-		int result1 = myCalc.plus(5, 6);
-		System.out.println("result1 : " + result1);
-		
-		int x = 10;
-		int y = 4;
-		
-		
-		double result2 =myCalc.divide(x, y);
-		System.out.println("result2 : " + result2);
-		
-		
-		myCalc.powerOff();
-	
+		System.out.println("정사각형 넓이=" + result1);
+		System.out.println("정사각형 넓이=" + result2);
+				
 	}
 }

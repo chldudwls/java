@@ -1,17 +1,22 @@
 package sec;
 
 public class Computer {
-		//가변길이 매개변수를 갖는 메소드 선언
-		int sum(int ... values) {
-			//sum 변수 선언
-			int sum =0;
-			
-			//values는 배열 타입의 변수처럼 사용
-			for(int  i = 0; i < values.length; i++) {
-				sum += values[i];
-				
-			}
-			//합산 결과를 리턴
-			return sum;
-		}
+	//리턴값이 없는 메소드 선언
+	void powerOn(){
+		System.out.println("전원을 켭니다.");
+	}
+	void powerOff() {
+		System.out.println("전원을 끕니다.");
+	}
+	
+	int plus(int x, int y) {
+		int result = x + y;
+		return result;
+	}
+	
+	double divide(int x, int y) {
+		double result = (double)x / (double)y;
+		return result;
+	}
+	
 }
