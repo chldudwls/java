@@ -2,16 +2,14 @@ package sec;
 
 public class Calculator {
 	
-	double areaRectangle(double width) {
-		return width * width;
+	static double p1 = 3.14159;
+	
+	static int plus(int x, int y) {
+		return x + y;
 	}
 	
-	double areaRectangle(double width, double height) {
-		return width * height;
-	
-	
+	static int minus(int x, int y) {
+		return x - y;
 	}
-	
-	
 	
 }

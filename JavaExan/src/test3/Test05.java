@@ -34,7 +34,13 @@ class CarFactory{
 
 public class Test05 {
 	public static void main(String[] args) {
-		CarFactory factory = new  CarFactory();
+		CarFactory factory = CarFactory.getInstance();
+							// private 으로 막은 생성자를 get으로 불러 들임
+		Vehicle avante = factory.createCar("아반테", 2500);
+		Vehicle sonata = factory.createCar("소나타", 3000);
+		
+		avante.info();
+		sonata.info();
 	}
 
 }

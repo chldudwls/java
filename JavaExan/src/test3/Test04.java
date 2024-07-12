@@ -2,7 +2,7 @@ package test3;
 
 
 class Student{
-	protected static int studentId;
+	public static int studentId;
 	private String studentName;
 	private String major;
 	private int grade;
