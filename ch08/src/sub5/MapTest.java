@@ -38,7 +38,8 @@ public class MapTest {
 		for(char k : map.keySet()) {// map의 key를 Set으로 반복
 			System.out.println(k + " : " + map.get(k));
 		}
-	
+
+		
 		//ArrayList와 응용
 		
 		Map<Integer, Apple> map1 = new HashMap<>();

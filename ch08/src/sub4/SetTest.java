@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 
 /*
  * 날짜 : 2024/07/17
@@ -14,15 +15,18 @@ import java.util.List;
 public class SetTest {
 	public static void main(String[] args) {
 		// Set 생성
-List<Integer> list = new ArrayList<>(); 
+		Set<Integer> set = new HashSet<>();
 		
 		//데이터 저장
-		list.add(1);
-		list.add(2);
-		list.add(3);
-		list.add(4);
-		list.add(5);
-		System.out.println(list);
+		set.add(1);
+		set.add(2);
+		set.add(3);
+		set.add(4);
+		set.add(5);
+		set.add(1);
+		set.add(2);
+		set.add(3);
+		System.out.println(set);
 		
 		
 		// 반복자를 이용한 데이터 출력
@@ -33,7 +37,7 @@ List<Integer> list = new ArrayList<>();
 			System.out.print(it.next()+",");
 		}
 		System.out.println();
-		for(int num : set) {
+		for(int num : set){
 			System.out.print(num + ",");
 		}
 		

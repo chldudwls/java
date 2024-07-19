@@ -12,15 +12,16 @@ public class Test07 {
 		
 		int temp = 0;
 		
+		//a, b 둘 중 작은 수를 temp 저장
 		if(a < b) {
 			temp = a;
 		}else {
 			temp = b;
 		}
-		
-		while (trus) {
-			iff (a % temp 0 && b % temp == 0){
+		while(true) {
+			if(a % temp == 0 && b % temp == 0) {
 				break;
+		
 			}
 			temp--;
 		}

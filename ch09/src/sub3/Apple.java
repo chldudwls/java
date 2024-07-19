@@ -12,10 +12,14 @@ public class Apple implements Serializable {
 		this.country = country;
 		this.price = price;
 	}
+	
+	
+		
 	@Override
 	public String toString() {
 		return "Apple [country=" + country + ", price=" + price + "]";
 	}
+	
 	
 	public void show() {
 		System.out.println("원산지 : " + country);
