@@ -1,7 +1,5 @@
 package sec02;
 
-import java.lang.annotation.Target;
-
 public class Student {
 	private int no;
 	private String name;

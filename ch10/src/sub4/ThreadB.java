@@ -9,10 +9,16 @@ public class ThreadB extends Thread {
 	}
 	@Override
 	public void run() {
+		
 		for(int i=0; i<10; i++) {
 			workObject.methodA();//동기화 메서드 호출
-	
+			try {
+				Thread.sleep(1000);
+			} catch (Exception e) {
+				// TODO: handle exception
+			}
 	
 		}
+		System.out.println("종료");
 	}
 }

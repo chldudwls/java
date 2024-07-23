@@ -6,5 +6,5 @@ public final class Employee extends Person{
 			System.out.println("제품을 생산합니다");
 			
 	}
-		sysout
+		
 }
