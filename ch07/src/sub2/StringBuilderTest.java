@@ -62,8 +62,7 @@ public class StringBuilderTest {
 		//문자열 교체
 		String rs1 = message.replace("Korea","Busan");
 		String rs2 = message.replace("Hello","Welcome");
-		
-		
+				
 		System.out.println("rs1 : " + rs1);
 		System.out.println("rs2 : " + rs2);
 		

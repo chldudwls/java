@@ -57,9 +57,9 @@ public class calcapp extends JFrame {
 		});
 	}
 	
-	
-	
 	List<Integer> ms = new ArrayList<>();
+	
+	
 	
 	
 	
@@ -94,6 +94,7 @@ public class calcapp extends JFrame {
 				lbResult.setText(b7);
 				
 				int B7 = Integer.parseInt(b7);
+				ms.set(B7, ms.get(B7+EXIT_ON_CLOSE));
 			}
 		});
 		but7.setBounds(12, 110, 66, 63);
@@ -268,22 +269,7 @@ public class calcapp extends JFrame {
 				
 			
 				
-				 switch (operator) {
-                 case "+":
-                      += 
-                     break;
-                 case "-":
-                      -= 
-                 case "*":
-                     *= 
-                     break;
-                 case "/":
-                      /=
-                     break;
-  s               default:
-                      = 
-                     break;
-				}
+				
 				
 			}
 		});

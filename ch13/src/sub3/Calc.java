@@ -97,6 +97,74 @@ public class Calc extends JFrame {
         });
         button.setBounds(x, y, width, height);
         contentPane.add(button);
+        
+        JButton button_1 = new JButton("8");
+        button_1.setBounds(90, 110, 66, 63);
+        contentPane.add(button_1);
+        
+        JButton button_2 = new JButton("9");
+        button_2.setBounds(168, 110, 66, 63);
+        contentPane.add(button_2);
+        
+        JButton button_3 = new JButton("-");
+        button_3.setBounds(246, 110, 66, 63);
+        contentPane.add(button_3);
+        
+        JButton button_4 = new JButton("4");
+        button_4.setBounds(12, 183, 66, 63);
+        contentPane.add(button_4);
+        
+        JButton button_5 = new JButton("5");
+        button_5.setBounds(90, 183, 66, 63);
+        contentPane.add(button_5);
+        
+        JButton button_6 = new JButton("6");
+        button_6.setBounds(168, 183, 66, 63);
+        contentPane.add(button_6);
+        
+        JButton button_7 = new JButton("+");
+        button_7.setBounds(246, 183, 66, 63);
+        contentPane.add(button_7);
+        
+        JButton button_8 = new JButton("1");
+        button_8.setBounds(12, 256, 66, 63);
+        contentPane.add(button_8);
+        
+        JButton button_9 = new JButton("2");
+        button_9.addActionListener(new ActionListener() {
+        	public void actionPerformed(ActionEvent e) {
+        	}
+        });
+        button_9.setBounds(90, 256, 66, 63);
+        contentPane.add(button_9);
+        
+        JButton button_10 = new JButton("3");
+        button_10.setBounds(168, 256, 66, 63);
+        contentPane.add(button_10);
+        
+        JButton button_11 = new JButton("*");
+        button_11.setBounds(246, 256, 66, 63);
+        contentPane.add(button_11);
+        
+        JButton btnC = new JButton("C");
+        btnC.addActionListener(new ActionListener() {
+        	public void actionPerformed(ActionEvent e) {
+        	}
+        });
+        btnC.setBounds(12, 328, 66, 63);
+        contentPane.add(btnC);
+        
+        JButton button_13 = new JButton("0");
+        button_13.setBounds(90, 328, 66, 63);
+        contentPane.add(button_13);
+        
+        JButton button_14 = new JButton("7");
+        button_14.setBounds(168, 329, 66, 63);
+        contentPane.add(button_14);
+        
+        JButton button_15 = new JButton("/");
+        button_15.setBounds(246, 329, 66, 63);
+        contentPane.add(button_15);
     }
     
     // 버튼 클릭 처리 메서드
